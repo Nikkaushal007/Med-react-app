@@ -65,11 +65,11 @@ function App() {
     setShowCart(false);
   };
 
-  return (<div><h1 className='navbar'>Admin Panel for Medicine Shop Sellers</h1>
+  return (<div><h1 className='navbar'>Shoppers stop for t-shirts</h1>
     <div className="app-container">
       <div className="form-container">
         <div>
-          <label>Medecine Name:</label>
+          <label>T-shirt Name:</label>
           <input type="text" value={name} onChange={handleNameChange} />
         </div>
         <div>
